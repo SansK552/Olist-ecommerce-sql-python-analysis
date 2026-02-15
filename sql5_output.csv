@@ -1,0 +1,534 @@
+city,state,total_reviews,avg_review_score
+santiago,RS,26,4.88
+"santo antonio de posse",SP,20,4.85
+"santa cruz do rio pardo",SP,34,4.79
+marau,RS,24,4.79
+"porto feliz",SP,21,4.76
+"sao manuel",SP,20,4.75
+cravinhos,SP,24,4.71
+guapimirim,RJ,21,4.71
+palmas,PR,20,4.70
+"casimiro de abreu",RJ,20,4.70
+"monte alto",SP,32,4.69
+pederneiras,SP,21,4.67
+cerquilho,SP,30,4.67
+icara,SC,21,4.62
+machado,MG,21,4.62
+votuporanga,SP,63,4.60
+"cruz alta",RS,30,4.60
+"paraguacu paulista",SP,20,4.60
+matinhos,PR,27,4.59
+brumadinho,MG,26,4.58
+cordeiro,RJ,23,4.57
+matao,SP,51,4.57
+imbituba,SC,30,4.57
+viana,ES,21,4.57
+jales,SP,28,4.57
+"dois vizinhos",PR,27,4.56
+navegantes,SC,31,4.55
+ibitinga,SP,22,4.55
+assis,SP,84,4.55
+frutal,MG,24,4.54
+uruguaiana,RS,48,4.54
+"sao roque",SP,75,4.52
+"monte carmelo",MG,23,4.52
+pindamonhangaba,SP,98,4.51
+uberaba,MG,188,4.51
+"pedro leopoldo",MG,40,4.50
+ituiutaba,MG,54,4.50
+gurupi,TO,24,4.50
+piumhii,MG,28,4.50
+itumbiara,GO,35,4.49
+lorena,SP,81,4.49
+"nova odessa",SP,37,4.49
+"fazenda rio grande",PR,29,4.48
+"cornelio procopio",PR,23,4.48
+amparo,SP,63,4.48
+promissao,SP,31,4.48
+brumado,BA,21,4.48
+taquaritinga,SP,33,4.48
+"rio claro",SP,150,4.47
+garanhuns,PE,30,4.47
+osorio,RS,35,4.46
+itapolis,SP,28,4.46
+araraquara,SP,149,4.46
+muriae,MG,63,4.46
+mairipora,SP,74,4.46
+"lencois paulista",SP,44,4.45
+"sao joao del rei",MG,65,4.45
+itapira,SP,51,4.45
+"ponta grossa",PR,141,4.44
+fernandopolis,SP,52,4.44
+montenegro,RS,32,4.44
+"rio grande da serra",SP,25,4.44
+"campo belo",MG,21,4.43
+pirassununga,SP,68,4.43
+"joao monlevade",MG,51,4.43
+bage,RS,62,4.42
+varginha,MG,88,4.42
+"porto ferreira",SP,26,4.42
+itanhaem,SP,74,4.41
+farroupilha,RS,27,4.41
+penapolis,SP,37,4.41
+manhuacu,MG,63,4.41
+"sao bento do sul",SC,44,4.41
+diamantina,MG,27,4.41
+caruaru,PE,61,4.41
+xanxere,SC,29,4.41
+caete,MG,27,4.41
+araras,SP,93,4.40
+"cachoeira paulista",SP,25,4.40
+tatui,SP,72,4.40
+"estancia velha",RS,20,4.40
+"campo limpo paulista",SP,47,4.40
+tupa,SP,52,4.40
+salto,SP,89,4.39
+"santa barbara d'oeste",SP,116,4.39
+"sao fidelis",RJ,23,4.39
+apucarana,PR,51,4.39
+"capao bonito",SP,28,4.39
+"sao gabriel",RS,23,4.39
+luziania,GO,33,4.39
+brusque,SC,59,4.39
+garopaba,SC,23,4.39
+pirapora,MG,41,4.39
+birigui,SP,80,4.38
+capivari,SP,32,4.38
+"sao mateus",ES,47,4.38
+juquitiba,SP,21,4.38
+cianorte,PR,39,4.38
+"venancio aires",RS,26,4.38
+garca,SP,27,4.37
+dracena,SP,27,4.37
+camboriu,SC,27,4.37
+ibiuna,SP,30,4.37
+"sao joao da boa vista",SP,80,4.36
+araguari,MG,55,4.36
+"primavera do leste",MT,28,4.36
+lages,SC,81,4.36
+itabirito,MG,28,4.36
+parnaiba,PI,22,4.36
+ituverava,SP,28,4.36
+"santos dumont",MG,22,4.36
+guarapuava,PR,62,4.35
+barretos,SP,71,4.35
+cacador,SC,40,4.35
+petrolina,PE,62,4.35
+"governador valadares",MG,133,4.35
+indaial,SC,26,4.35
+ijui,RS,52,4.35
+aparecida,SP,26,4.35
+sorocaba,SP,609,4.34
+"francisco morato",SP,94,4.34
+"sete lagoas",MG,128,4.34
+"sao bernardo do campo",SP,916,4.33
+"montes claros",MG,206,4.33
+jau,SP,73,4.33
+mogi-guacu,SP,88,4.33
+bebedouro,SP,51,4.33
+itu,SP,129,4.33
+guaira,SP,36,4.33
+uberlandia,MG,367,4.32
+"sao jose dos campos",SP,668,4.32
+itauna,MG,56,4.32
+"santo andre",SP,778,4.32
+indaiatuba,SP,274,4.32
+parnamirim,RN,57,4.32
+cubatao,SP,79,4.32
+mineiros,GO,25,4.32
+mafra,SC,25,4.32
+salinas,MG,22,4.32
+pinhais,PR,65,4.31
+"sao jose do rio preto",SP,325,4.30
+americana,SP,217,4.30
+itajuba,MG,92,4.30
+"ferraz de vasconcelos",SP,109,4.30
+"sao caetano do sul",SP,271,4.30
+cambe,PR,27,4.30
+atibaia,SP,154,4.30
+"braganca paulista",SP,142,4.30
+"santa rosa",RS,33,4.30
+carazinho,RS,23,4.30
+mococa,SP,34,4.29
+"santa fe do sul",SP,34,4.29
+marilia,SP,194,4.29
+votorantim,SP,84,4.29
+jaboticabal,SP,49,4.29
+sertaozinho,SP,62,4.29
+tiete,SP,35,4.29
+timoteo,MG,51,4.29
+mairinque,SP,24,4.29
+tremembe,SP,38,4.29
+cacapava,SP,71,4.28
+barbacena,MG,79,4.28
+limeira,SP,187,4.28
+"campo largo",PR,36,4.28
+arapongas,PR,32,4.28
+cataguases,MG,32,4.28
+caceres,MT,25,4.28
+gramado,RS,29,4.28
+"ribeirao preto",SP,498,4.27
+manaus,AM,137,4.27
+pitangui,MG,22,4.27
+"sao carlos",SP,232,4.27
+"balneario camboriu",SC,96,4.27
+macapa,AP,52,4.27
+boituva,SP,49,4.27
+curitiba,PR,1485,4.26
+piracicaba,SP,356,4.26
+"presidente epitacio",SP,23,4.26
+paulinia,SP,128,4.26
+"pato branco",PR,53,4.26
+cosmopolis,SP,50,4.26
+"mogi mirim",SP,78,4.26
+"capao da canoa",RS,38,4.26
+"dias d'avila",BA,23,4.26
+"almirante tamandare",PR,36,4.25
+itapevi,SP,171,4.25
+"santa maria",RS,193,4.25
+ibiruba,RS,20,4.25
+"bento goncalves",RS,52,4.25
+vacaria,RS,20,4.25
+guaratingueta,SP,97,4.25
+louveira,SP,44,4.25
+lajeado,RS,52,4.25
+itapema,SC,44,4.25
+"aguas lindas de goias",GO,24,4.25
+santos,SP,693,4.24
+vinhedo,SP,90,4.24
+"sao joaquim da barra",SP,34,4.24
+osasco,SP,724,4.24
+gaspar,SC,29,4.24
+bauru,SP,265,4.24
+pelotas,RS,183,4.24
+ourinhos,SP,75,4.24
+"ponta pora",MS,21,4.24
+paranavai,PR,45,4.24
+"para de minas",MG,37,4.24
+"teofilo otoni",MG,75,4.24
+taquara,RS,21,4.24
+orlandia,SP,29,4.24
+"sao paulo",SP,15040,4.23
+"juiz de fora",MG,423,4.23
+barueri,SP,420,4.23
+cotia,SP,241,4.23
+suzano,SP,231,4.23
+divinopolis,MG,132,4.23
+valinhos,SP,184,4.23
+"santo antonio de padua",RJ,30,4.23
+parauapebas,PA,26,4.23
+"presidente prudente",SP,158,4.23
+andradina,SP,40,4.23
+oliveira,MG,22,4.23
+aruja,SP,69,4.23
+"paulo afonso",BA,39,4.23
+registro,SP,47,4.23
+"praia grande",SP,298,4.22
+blumenau,SC,181,4.22
+"campo grande",MS,313,4.22
+saquarema,RJ,46,4.22
+mongagua,SP,41,4.22
+olimpia,SP,36,4.22
+"santo angelo",RS,45,4.22
+"mogi das cruzes",SP,371,4.21
+"ribeirao pires",SP,107,4.21
+carapicuiba,SP,316,4.21
+betim,MG,192,4.21
+"ponte nova",MG,39,4.21
+maua,SP,317,4.21
+londrina,PR,301,4.21
+trindade,GO,24,4.21
+"embu das artes",SP,156,4.21
+vassouras,RJ,34,4.21
+"passo fundo",RS,112,4.21
+"sao lourenco",MG,33,4.21
+alagoinhas,BA,40,4.20
+"sao vicente",SP,158,4.20
+"santana de parnaiba",SP,176,4.20
+jundiai,SP,548,4.20
+itapetininga,SP,76,4.20
+congonhas,MG,30,4.20
+"barra do garcas",MT,25,4.20
+"cachoeira do sul",RS,30,4.20
+gravatai,RS,111,4.20
+franca,SP,153,4.20
+caieiras,SP,97,4.20
+leme,SP,50,4.20
+ilhabela,SP,44,4.20
+nanuque,MG,25,4.20
+colombo,PR,60,4.20
+"santana do livramento",RS,20,4.20
+maringa,PR,258,4.19
+guaruja,SP,216,4.19
+"lagoa santa",MG,62,4.19
+taubate,SP,261,4.19
+piracaia,SP,21,4.19
+"caxias do sul",RS,224,4.19
+"santa cruz do sul",RS,62,4.19
+"ribeirao das neves",MG,97,4.19
+passos,MG,43,4.19
+"franco da rocha",SP,106,4.18
+aracatuba,SP,137,4.18
+dourados,MS,68,4.18
+paracatu,MG,62,4.18
+"sao sebastiao do paraiso",MG,34,4.18
+irati,PR,22,4.18
+"aguas de lindoia",SP,22,4.18
+caraguatatuba,SP,84,4.18
+piedade,SP,22,4.18
+"campina grande",PB,66,4.18
+"barra bonita",SP,28,4.18
+"belo horizonte",MG,2702,4.17
+guarulhos,SP,1138,4.17
+"sao leopoldo",RS,103,4.17
+tubarao,SC,60,4.17
+jandira,SP,87,4.17
+ibirite,MG,47,4.17
+"tangara da serra",MT,23,4.17
+linhares,ES,64,4.16
+avare,SP,63,4.16
+guaxupe,MG,37,4.16
+"coronel fabriciano",MG,40,4.15
+cariacica,ES,135,4.15
+campinas,SP,1401,4.15
+catanduva,SP,71,4.15
+itatiba,SP,97,4.15
+jacarei,SP,188,4.15
+"campos do jordao",SP,26,4.15
+sorriso,MT,20,4.15
+jaguariuna,SP,60,4.15
+cachoeirinha,RS,72,4.15
+palmital,SP,20,4.15
+anapolis,GO,111,4.14
+sinop,MT,43,4.14
+guarapari,ES,65,4.14
+"vargem grande paulista",SP,43,4.14
+castro,PR,22,4.14
+itarare,SP,28,4.14
+"barra do pirai",RJ,49,4.14
+rondonopolis,MT,66,4.14
+alvorada,RS,50,4.14
+mirassol,SP,29,4.14
+rancharia,SP,21,4.14
+brasilia,DF,2080,4.13
+"taboao da serra",SP,286,4.13
+concordia,SC,47,4.13
+"santa barbara",MG,23,4.13
+"foz do iguacu",PR,85,4.13
+cascavel,PR,145,4.13
+botucatu,SP,100,4.13
+tijucas,SC,31,4.13
+embu-guacu,SP,46,4.13
+itaguai,RJ,45,4.13
+"valparaiso de goias",GO,38,4.13
+toledo,PR,70,4.13
+"pouso alegre",MG,128,4.13
+"artur nogueira",SP,40,4.13
+"ilha solteira",SP,24,4.13
+sapiranga,RS,23,4.13
+rolandia,PR,24,4.13
+"feira de santana",BA,181,4.12
+"sao jose dos pinhais",PR,128,4.12
+arcos,MG,25,4.12
+camaragibe,PE,33,4.12
+alfenas,MG,43,4.12
+"pocos de caldas",MG,116,4.11
+valenca,BA,35,4.11
+"campo bom",RS,35,4.11
+"itapecerica da serra",SP,90,4.11
+canoinhas,SC,27,4.11
+"bom despacho",MG,38,4.11
+ananindeua,PA,85,4.11
+"rio grande",RS,119,4.10
+"francisco beltrao",PR,50,4.10
+mage,RJ,106,4.10
+curitibanos,SC,20,4.10
+cajamar,SP,98,4.10
+itapeva,SP,52,4.10
+"porto velho",RO,107,4.10
+"uniao da vitoria",PR,29,4.10
+sabara,MG,41,4.10
+"ouro branco",MG,42,4.10
+vitoria,ES,369,4.09
+"campo mourao",PR,56,4.09
+"sao sebastiao",SP,56,4.09
+"telemaco borba",PR,34,4.09
+lins,SP,54,4.09
+goiania,GO,656,4.08
+"jaragua do sul",SC,88,4.08
+pedreira,SP,36,4.08
+poa,SP,87,4.08
+olinda,PE,90,4.08
+itajai,SC,115,4.08
+caratinga,MG,62,4.08
+joacaba,SC,26,4.08
+"nova serrana",MG,48,4.08
+florianopolis,SC,553,4.07
+"conselheiro lafaiete",MG,82,4.07
+"teixeira de freitas",BA,28,4.07
+"novo hamburgo",RS,122,4.07
+"santa isabel",SP,28,4.07
+batatais,SP,27,4.07
+vespasiano,MG,41,4.07
+unai,MG,55,4.07
+ubatuba,SP,71,4.06
+queimados,RJ,52,4.06
+"aparecida de goiania",GO,105,4.06
+"joao pessoa",PB,243,4.06
+guaiba,RS,31,4.06
+colatina,ES,62,4.06
+"nova lima",MG,95,4.05
+"porto alegre",RS,1346,4.05
+videira,SC,43,4.05
+natal,RN,203,4.05
+"lucas do rio verde",MT,22,4.05
+barreiras,BA,50,4.04
+holambra,SP,23,4.04
+"patos de minas",MG,100,4.04
+"rio bonito",RJ,27,4.04
+japeri,RJ,34,4.03
+vicosa,MG,87,4.03
+"campos dos goytacazes",RJ,230,4.03
+diadema,SP,275,4.03
+joinville,SC,258,4.03
+canoas,RS,208,4.03
+"jaboatao dos guararapes",PE,130,4.03
+"sapucaia do sul",RS,39,4.03
+sobral,CE,33,4.03
+jequie,BA,34,4.03
+"vitoria da conquista",BA,89,4.03
+alegrete,RS,35,4.03
+formiga,MG,32,4.03
+"marechal candido rondon",PR,30,4.03
+contagem,MG,417,4.02
+"ouro preto",MG,54,4.02
+cruzeiro,SP,56,4.02
+recife,PE,591,4.01
+"rio branco",AC,69,4.01
+"rio de janeiro",RJ,6568,4.00
+niteroi,RJ,830,4.00
+adamantina,SP,35,4.00
+peruibe,SP,44,4.00
+eunapolis,BA,36,4.00
+biguacu,SC,22,4.00
+"santa rita do sapucai",MG,36,4.00
+"varzea grande",MT,37,4.00
+araucaria,PR,53,4.00
+"presidente venceslau",SP,22,4.00
+aracati,CE,21,4.00
+itaborai,RJ,54,4.00
+ipatinga,MG,169,3.99
+sumare,SP,179,3.99
+palhoca,SC,88,3.99
+marica,RJ,131,3.99
+itaquaquecetuba,SP,164,3.99
+lavras,MG,81,3.99
+uba,MG,52,3.98
+nilopolis,RJ,100,3.98
+bertioga,SP,48,3.98
+cuiaba,MT,240,3.97
+"sao miguel do oeste",SC,39,3.97
+petropolis,RJ,233,3.97
+"santo antonio de jesus",BA,29,3.97
+itabuna,BA,61,3.97
+arapiraca,AL,30,3.97
+teresopolis,RJ,119,3.97
+palmas,TO,87,3.97
+"tres rios",RJ,38,3.97
+araguaina,TO,38,3.97
+paracambi,RJ,35,3.97
+"santa luzia",MG,89,3.96
+chapeco,SC,101,3.96
+viamao,RS,70,3.96
+tramandai,RS,25,3.96
+"vila velha",ES,318,3.95
+belem,PA,426,3.95
+januaria,MG,22,3.95
+"cachoeiras de macacu",RJ,20,3.95
+"barra mansa",RJ,118,3.94
+mossoro,RN,35,3.94
+jatai,GO,54,3.93
+serra,ES,277,3.93
+umuarama,PR,40,3.93
+araxa,MG,74,3.93
+"tres coracoes",MG,41,3.93
+"arraial do cabo",RJ,27,3.93
+fortaleza,CE,614,3.92
+teresina,PI,268,3.92
+altamira,PA,24,3.92
+"lauro de freitas",BA,71,3.92
+"angra dos reis",RJ,82,3.91
+"volta redonda",RJ,225,3.91
+itabira,MG,76,3.91
+maraba,PA,22,3.91
+itaperuna,RJ,47,3.91
+cambui,MG,22,3.91
+"duque de caxias",RJ,249,3.90
+"cachoeiro de itapemirim",ES,123,3.90
+"boa vista",RR,40,3.90
+"nova iguacu",RJ,419,3.90
+erechim,RS,58,3.90
+"braco do norte",SC,20,3.90
+criciuma,SC,91,3.89
+resende,RJ,113,3.89
+corumba,MS,27,3.89
+"sao pedro da aldeia",RJ,45,3.89
+patrocinio,MG,45,3.89
+aracaju,SE,213,3.88
+mariana,MG,33,3.88
+"sao joao de meriti",RJ,124,3.88
+hortolandia,SP,141,3.87
+"monte mor",SP,38,3.87
+extrema,MG,39,3.87
+guanambi,BA,36,3.86
+castanhal,PA,21,3.86
+"alem paraiba",MG,28,3.86
+caucaia,CE,35,3.86
+"cabo de santo agostinho",PE,22,3.86
+esteio,RS,39,3.85
+"nova friburgo",RJ,145,3.85
+claudio,MG,20,3.85
+"juazeiro do norte",CE,31,3.84
+"sao jose",SC,166,3.83
+paranagua,PR,58,3.83
+"belford roxo",RJ,103,3.81
+"sao luis",MA,333,3.80
+salvador,BA,1180,3.80
+imperatriz,MA,40,3.80
+formosa,GO,34,3.79
+"miguel pereira",RJ,29,3.79
+aracruz,ES,37,3.78
+valenca,RJ,27,3.78
+"varzea paulista",SP,76,3.78
+araruama,RJ,71,3.77
+"sao jose do rio pardo",SP,44,3.77
+"rio verde",GO,64,3.77
+"monte siao",MG,22,3.77
+medianeira,PR,21,3.76
+"sao goncalo",RJ,381,3.75
+"cabo frio",RJ,110,3.75
+"armacao dos buzios",RJ,28,3.75
+"rio das ostras",RJ,129,3.73
+carangola,MG,26,3.73
+seropedica,RJ,32,3.72
+coromandel,MG,25,3.72
+maceio,AL,235,3.72
+ilheus,BA,69,3.72
+"caldas novas",GO,36,3.72
+macae,RJ,227,3.71
+"tres lagoas",MS,42,3.71
+"bom jesus do itabapoana",RJ,20,3.70
+jacobina,BA,23,3.70
+paulista,PE,41,3.66
+curvelo,MG,42,3.64
+mesquita,RJ,72,3.64
+"rio do sul",SC,35,3.60
+juazeiro,BA,42,3.60
+itupeva,SP,42,3.57
+"simoes filho",BA,21,3.57
+"luis eduardo magalhaes",BA,36,3.56
+catalao,GO,35,3.54
+maracanau,CE,33,3.52
+"porto seguro",BA,39,3.36
+camacari,BA,59,3.32
+santarem,PA,43,3.07
