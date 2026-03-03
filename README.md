@@ -106,7 +106,7 @@ Correlation analysis between:<br>
   • 91.89% of orders were delivered on or before the estimated date.<br>
   • Delivery delay distribution is slightly left-skewed (many early deliveries).<br>
   • Significant outliers exist (some orders delayed by 100+ days).<br>
-  • Certain states show higher average delays compared to others.<br>
+  • States like AL and MA show relatively higher late delivery percentages compared to national average.<br>
 
 2️⃣ Payment Behavior
 
@@ -124,10 +124,7 @@ Correlation analysis between:<br>
 
 4️⃣ Product & Revenue Analysis
 
-  • Top revenue categories include:<br>
-      ⁃ beleza_saude<br>
-      ⁃ relogios_presentes<br>
-      ⁃ cama_mesa_banho<br>
+  • Top revenue categories include beleza_saude, relogios_presentes, cama_mesa_banho.<br>
   • Some high-revenue categories have relatively lower review scores.<br>
   • Weak-to-moderate relationship between product weight and delivery time.<br>
   • Revenue does not strongly correlate with review score — high revenue does not always mean high satisfaction.<br>
@@ -156,3 +153,11 @@ Correlation analysis between:<br>
   • Optimize shipping for heavier products.<br>
   • Conduct quality checks in lower-rated categories.<br>
   • Balance revenue growth with customer satisfaction metrics.<br>
+
+### Skills Demonstrated
+
+• End-to-end data analytics workflow<br>
+• Business metric design from raw transactional data<br>
+• Multi-table relational analysis<br>
+• Statistical correlation interpretation<br>
+• Translating data insights into strategic recommendations<br>
