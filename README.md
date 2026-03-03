@@ -43,15 +43,11 @@ Do heavier/larger products lead to longer delivery times?<br>
 
 ### Project Architecture
 
-Kaggle CSV Files
-        ↓
-MySQL (Data Cleaning + JOINs + CTEs)
-        ↓
-Analytical Master Dataset
-        ↓
-Python (EDA + Correlation + Visualization)
-        ↓
-Business Insights and Recommendations
+Kaggle CSV Files<br>
+MySQL (Data Cleaning + JOINs + CTEs)<br>
+Analytical Master Dataset<br>
+Python (EDA + Correlation + Visualization)<br>
+Business Insights and Recommendations<br>
 
 ### SQL Analysis
 
