@@ -150,6 +150,28 @@ Correlation analysis between:<br>
   • Conduct quality checks in lower-rated categories.<br>
   • Balance revenue growth with customer satisfaction metrics.<br>
 
+### Machine Learning Prediction 
+
+The SQL/EDA analysis found that delivery delay correlates with review score. This extension tests whether that relationship can actually predict a bad review (score ≤ 3) *before* it's written — useful because support teams could intervene proactively instead of finding out after the fact.
+
+1️⃣ Approach
+
+  • Built target `is_bad_review` (1 = review score ≤ 3) using only features known at or before delivery like delay, price, freight,                 installments, item count, product category, customer state — to avoid data leakage from post-review fields<br>
+  • Median or mode imputation for missing values<br>
+  • 80/20 stratified train-test split (77,182 train / 19,296 test orders from 96,478 total)<br>
+  • Logistic Regression baseline → Random Forest, both with `class_weight="balanced"` to handle the class imbalance (~21% bad reviews)<br> 
+  • SHAP (TreeExplainer) for global feature importance and single-prediction explainability<br>
+
+2️⃣ Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|---|---|---|---|---|---|
+| Logistic Regression | 0.67 | 0.33 | 0.56 | 0.41 | 0.667 |
+| Random Forest | 0.78 | 0.48 | 0.41 | 0.44 | 0.687 |
+
+• Random Forest outperformed the linear baseline on accuracy, precision and ROC-AUC, confirming the delay–review relationship found in EDA       carries real predictive signal, though ROC-AUC in the high 0.6s means it's a supporting signal, not a standalone high-confidence classifier<br> 
+• SHAP confirmed delivery delay as a top driver of "bad review" predictions, consistent with the SQL/EDA findings and provided per-order explanations support teams could act on<br>
+
 ### Skills Demonstrated
 
 • End-to-end data analytics workflow<br>
@@ -157,3 +179,7 @@ Correlation analysis between:<br>
 • Multi-table relational analysis<br>
 • Statistical correlation interpretation<br>
 • Translating data insights into strategic recommendations<br>
+• Supervised classification (Logistic Regression, Random Forest)<br>
+• Handling class imbalance<br>
+• Model evaluation beyond accuracy (precision/recall/F1/ROC-AUC trade offs)<br>
+• Model explainability with SHAP<br>
