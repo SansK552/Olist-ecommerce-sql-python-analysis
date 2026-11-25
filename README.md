@@ -100,7 +100,7 @@ Correlation analysis between:<br>
 1️⃣ Delivery Performance
 
   • 91.89% of orders were delivered on or before the estimated date.<br>
-  • Delivery delay distribution is slightly left-skewed (many early deliveries).<br>
+  • Most orders arrive well before the estimated date, with a long tail of late deliveries (right-skewed delay distribution).<br>
   • Significant outliers exist (some orders delayed by 100+ days).<br>
   • States like AL and MA show relatively higher late delivery percentages compared to national average.<br>
 
@@ -109,20 +109,20 @@ Correlation analysis between:<br>
   • Credit Card dominates (73.92%) of total payment methods.<br>
   • Boleto accounts for ~19%.<br>
   • Clear upward trend: higher installment count → higher average order value.<br>
-  • Positive correlation between payment value and number of installments.<br>
+  • Weak positive correlation between payment value and number of installments (r ≈ 0.30).<br>
 
 3️⃣ Customer Satisfaction
 
   • Average review scores across states mostly range between 3.7 – 4.4.<br>
-  • Higher delivery delays are associated with lower review scores.<br>
+  • Higher delivery delays are associated with lower review scores (modest correlation, r ≈ −0.24).<br>
   • Review response time averages around 2–3 days.<br>
-  • Faster responses slightly correlate with better ratings.<br>
+  • Review response time shows no clear relationship with review score (about 2.4–2.6 days across all scores).<br>
 
 4️⃣ Product & Revenue Analysis
 
   • Top revenue categories include beleza_saude, relogios_presentes, cama_mesa_banho.<br>
   • Some high-revenue categories have relatively lower review scores.<br>
-  • Weak-to-moderate relationship between product weight and delivery time.<br>
+  • Weak relationship between product weight and delivery time (r ≈ 0.09).<br>
   • Revenue does not strongly correlate with review score — high revenue does not always mean high satisfaction.<br>
 
 ### Business Recommendations 
@@ -140,7 +140,7 @@ Correlation analysis between:<br>
 
 3️⃣ Customer Satisfaction Improvement
 
-  • Prioritize faster resolution for low-rated reviews.<br>
+  • Prioritize follow-up on low-rated reviews and the issues behind them.<br>
   • Focus on categories with high revenue but lower average ratings.<br>
   • Implement proactive communication for delayed shipments.<br>
 
@@ -169,8 +169,16 @@ The SQL/EDA analysis found that delivery delay correlates with review score. Thi
 | Logistic Regression | 0.67 | 0.33 | 0.56 | 0.41 | 0.667 |
 | Random Forest | 0.78 | 0.48 | 0.41 | 0.44 | 0.687 |
 
-• Random Forest outperformed the linear baseline on accuracy, precision and ROC-AUC, confirming the delay–review relationship found in EDA       carries real predictive signal, though ROC-AUC in the high 0.6s means it's a supporting signal, not a standalone high-confidence classifier<br> 
+• Random Forest outperformed the linear baseline on accuracy, precision and ROC-AUC, suggesting the delay–review relationship found in EDA       carries real predictive signal, though ROC-AUC in the high 0.6s means it's a supporting signal, not a standalone high-confidence classifier<br>
+• Logistic Regression has higher recall (0.56 vs 0.41). Because only ~21% of orders are bad reviews, always predicting "good" would already score ~79% accuracy, so precision, recall and ROC-AUC are the better yardsticks here.<br>
 • SHAP confirmed delivery delay as a top driver of "bad review" predictions, consistent with the SQL/EDA findings and provided per-order explanations support teams could act on<br>
+
+### Limitations
+
+• The EDA notebook uses an export capped at 50,000 rows (42,506 of 96,478 delivered orders), so EDA correlations are indicative. The SQL metrics and ML results use the full data.<br>
+• 646 delivered orders have no review and are labelled as "good" in the ML target (under 1% of rows).<br>
+• Public dataset from one time window: findings are correlations, and no business impact is claimed.<br>
+• ROC-AUC of 0.687 is modest, so the model is a supporting signal, not a standalone classifier.<br>
 
 ### Skills Demonstrated
 
